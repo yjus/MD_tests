@@ -4,6 +4,14 @@
 # This is an <h2> tag
 # This is an <h6> tag
 
+# Abaqus
+La simulation se déroule en 2 étapes :
+* Item Gonflage
+* Item Impact
+
+`abaqus job=gonflage interactive` puis `abaqus oldjob=gonflage job=impact interactive`
+# Modélisation du gonflage
+Deux méthodes possibles
 
 * Item 1
 * Item 2
