@@ -1,15 +1,17 @@
-# MD_tests
+# Questions ouvertes
+* quelle version d'Abaqus ?
+* quelles sont les limitations de la version pédagogique d'Abaqus ?
+ * nombre de noeuds ?
+ * autre ?
 
-# This is an <h1> tag
-# This is an <h2> tag
-# This is an <h6> tag
+
 
 # Abaqus
 La simulation se déroule en 2 étapes :
-* Item Gonflage
-* Item Impact
+1. Gonflage
+1. Impact
 
-`abaqus job=gonflage interactive` puis `abaqus oldjob=gonflage job=impact interactive`
+Pour lancer la simulation, tapez `abaqus job=gonflage interactive` puis `abaqus oldjob=gonflage job=impact interactive`dans un terminal.
 # Modélisation du gonflage
 Deux méthodes possibles
 
